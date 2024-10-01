@@ -1,0 +1,6 @@
+project:
+  render:
+    - index.qmd
+    
+format:
+  html
