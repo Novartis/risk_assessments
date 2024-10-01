@@ -25,6 +25,15 @@ jobs:
       # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
+        
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
+          extra-packages: |
+            any::DT
+            any::quarto
+            any::knitr
+            any::readr
 
       - name: Publish to GitHub Pages (and render) 
         uses: quarto-dev/quarto-actions/publish@v2
