@@ -31,7 +31,7 @@ The package versions reported here are the versions of the package installed in 
 
 We conducted an analysis of changes in risk assessment ratings over time and found that the risk rating changed in only minority of packages (7.4%). In these small number of cases the changes were primarily non-impactful, e.g. a package transitioning from medium risk to low risk, with changes primarily driven by fluctuation in download rates. These data helped inform our strategy for the risk assessment of existing packages - we re-assess the risk for major milestones like updates to the R version but for more incremental releases we carry over the risk assessment from the previous release. 
 
-More information about this analysis can be found in [these slides, presented at an R Validation Hub community meeting on 20th August 2024](./ratings_over_time.pdf). 
+More information about this analysis can be found in [these slides, presented at an R Validation Hub community meeting on 20th August 2024](https://github.com/Novartis/risk_assessments/blob/main/slides/ratings_over_time.pdf). 
 
 ## Risk ratings
 
