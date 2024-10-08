@@ -3,6 +3,7 @@ title: "Risk Assessment of R Packages at Novartis"
 format:
   html:
     embed-resources: true
+    toc: true
 editor: source
 ---
 
